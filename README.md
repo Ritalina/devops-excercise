@@ -11,7 +11,7 @@ IN LOCAL
 3.- Clone the repo
 
 
-4.- add in your .env the next enviroments
+4.- Add in your .env the next enviroments
 
 
 REDIS_HOST=redis
