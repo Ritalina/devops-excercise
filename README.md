@@ -23,7 +23,7 @@ REDIS_PORT=6379
 BIND_PORT=5000
 
 
-5.- Enter in the repo and execute docker-compose up -d
+5.- Enter in the repo and execute sudo docker-compose up -d
 
 
 6.- To make sure it works run execute in your terminal curl http://localhost:5000 the expected result is:
