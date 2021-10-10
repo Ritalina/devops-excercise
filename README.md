@@ -11,21 +11,9 @@ IN LOCAL
 3.- Clone the repo
 
 
-4.- Add in your .env the next enviroments
+4.- Enter in the repo and execute sudo docker-compose up -d
 
 
-REDIS_HOST=redis
-
-
-REDIS_PORT=6379
-
-
-BIND_PORT=5000
-
-
-5.- Enter in the repo and execute sudo docker-compose up -d
-
-
-6.- To make sure it works run execute in your terminal curl http://localhost:5000 the expected result is:
+5.- To make sure it works run execute in your terminal curl http://localhost:5000 the expected result is:
     
     Hello from Redis! I have been seen 2 times.
