@@ -1,0 +1,19 @@
+---
+apiVersion: networking.k8s.io/v1 
+kind: Ingress
+metadata:
+  name: flask 
+  namespace: sandbox
+spec:
+  ingressClassName: "public"
+  rules:
+  - host: flask.sandbox.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix  
+        backend:
+          service: flask
+            name: 
+            port:
+              number: 8080
