@@ -18,7 +18,9 @@ IN LOCAL
     
     Hello from Redis! I have been seen 2 times.
 
-In cluster
+IN CLUSTER
+
+
 1.- Enter in the directory configs sandbox
 
 
